@@ -43,7 +43,7 @@ X_train, X_valid, y_train, y_valid = train_test_split(X, y, test_size=0.2)
 # scaling values
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
-X_valid = scaler.transform(X_valid)
+X_valid = scaler.fit_transform(X_valid)
 
 # combining features and labels
 train_dataset = list(zip(X_train,y_train))
