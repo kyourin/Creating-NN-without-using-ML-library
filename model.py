@@ -56,8 +56,8 @@ class Network(object):
 
     def __init__(self, sizes, seed=42):
         """Params:
-            sizes: a list of which each element indicating the unit number for each layer 
-        including input layer.
+            sizes: a list of which each element indicates the unit number for each layer 
+        including the input layer.
             seed: set seed to seed the generator."""
 
         # getting the number of layers
