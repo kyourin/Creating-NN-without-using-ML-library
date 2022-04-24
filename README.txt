@@ -15,7 +15,7 @@ There are 2901 samples in this dataset without any missing values.
 
 *******************************************************************************************
 
-Note: While creating the neaural network, I have adapted the code in Michael Nielsen's 'Neural Networks and Deep Learning' book.
+Note: While creating the neaural network, I have used Michael Nielsen's 'Neural Networks and Deep Learning' book as a resource. You can find more in this book.
 
 Note: There are comment lines in the code describing the structure of the model.
 
